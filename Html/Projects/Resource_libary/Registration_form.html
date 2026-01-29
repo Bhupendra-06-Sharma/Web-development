@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h3>Registration form</h3>
+    <p>Fill out the form carefully for get the excess of this resource</p>
+    <hr>
+    <form>
+    <!-- <form action="/action.php"> -->
+        <h4>Student Name</h4>
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Middle name">
+        <br>
+        <h4>Birth date</h4>
+        <input type="date">
+        <br>
+        <h4>Gender</h4> 
+        <select name="Gender" id="Gender" style="width: 250px; height: 30px;" >
+            <option value="" disabled selected>Please Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <h4>Address</h4>
+        <textarea name="Address" cols="60"></textarea>
+        <br>
+        <small>Stress address</small>
+        <br><br>
+
+        <textarea name="Address" cols="60"></textarea>
+        <br>
+        <small>Stress address line 2</small>
+        <br><br>
+        <textarea name="Address" cols="20"placeholder="City"></textarea>
+        <textarea name="Address" cols="20"placeholder="State"></textarea>
+        <textarea name="Address" cols="20"placeholder="Pincode"></textarea>
+        <br><br>
+        <h4>Student E-mail</h4>
+        <input type="email" size="50"  placeholder="eg.myname@example.com">
+        <br><br>
+        <h4>Student mobile number</h4>
+        <input type="number"  placeholder="Enter your number">
+        <br><br>
+        <h4>Collage name</h4>
+        <input type="text" size="50" placeholder="Enter your collage name">
+        <br><br>
+        <h4>Courses</h4>
+        <select name="Courses" id="Courses" style="width: 250px;height: 30px;">
+            <option value="" disabled selected>Please select</option>
+            <option value="CSE">CSE</option>
+            <option value="AI/ML">AI/ML</option>
+            <option value="COLUD COMPUTING">CLOUD COMPUTING</option>
+            <option value="CYBER SECURITY">CYBER SECURITY</option>
+            <option value="SOFTWARE ENGINEERING">SOFTWARE ENGINEERING</option>
+            <option value="IT">IT</option>
+            <option value="CSBS">CSBS</option>
+        </select>
+        <br><br>
+        <h4>Additional comments</h4>
+        <textarea name="Additional comments" rows="10" cols="40" placeholder="Enter your comments"></textarea>
+        <hr>
+        <!-- <center><input type="submit" value="submit" style="background-color: rgb(154, 227, 144);" style="width: 20px; height: 30px;"></center> -->
+        <center><a href="All_cources.html">submit</center>
+
+    </form>
+</body>
+</html>
