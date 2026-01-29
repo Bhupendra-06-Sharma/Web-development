@@ -1,0 +1,17 @@
+div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border: 7px solid cornflowerblue;
+    border-top: 5px solid rgb(243, 104, 5);
+    animation: loader 1s infinite normal;
+}
+@keyframes loader {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}

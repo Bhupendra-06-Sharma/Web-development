@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    height: 300px;
+    width: 700px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row; 
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */ 
+    justify-content: center;
+    /* justify-content: flex-end; */
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: center; */
+    /* align-content: flex-start; */
+}
+#box1{
+    background-color: aqua;
+    flex-grow: 1;
+}
+#box2{
+    background-color: rgb(0, 13, 255);
+    /* height: 200px; */
+    /* align-self: flex-end; */
+    /* flex-shrink: 0;  The 2 is factor at which the box shrink */
+    flex-grow: 2;
+}
+#box3{
+    background-color: rgb(242, 255, 0);
+    /* height: 75px; */
+}
+#box4{
+    background-color: rgb(255, 0, 242);
+}
+#box5{
+    background-color: rgb(255, 30, 0);
+    /* align-self: flex-end; */
+}
+.media-queries{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: blueviolet;
+}
+@media(min-width:200px) and (max-width:300px){
+    .media-queries{
+        background-color: aqua;
+    }
+}

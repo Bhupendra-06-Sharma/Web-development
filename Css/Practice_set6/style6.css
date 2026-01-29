@@ -1,0 +1,36 @@
+.navbar{
+    height: 50px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+li{
+    list-style-type: none;
+    display: inline;
+    /* background-color: rgb(255, 255, 255); */
+}
+a{
+    color: rgb(247, 3, 3);
+    text-decoration: none;
+}
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(144, 165, 42);
+}

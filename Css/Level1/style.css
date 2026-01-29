@@ -1,0 +1,72 @@
+/* h1{
+    color: rgb(155, 25, 25); 
+    background-color: rgb(175, 225, 37);
+} */
+p{
+    color:rgb(214, 187, 32);
+    text-align: center;
+    text-decoration: dotted red underline;
+}
+button{
+    color: aquamarine;
+    background-color: rgb(216, 18, 18); /*rgb color system*/
+    
+}
+body{
+    /* background-color: black; */ 
+   background-color: #000000;  /*hex color system*/
+} 
+#headingOne
+{
+    color: aqua;
+    text-decoration: red underline;
+}
+#headingTwo
+{
+    color: rgb(30, 218, 23);
+    text-decoration: overline;
+}
+.hero
+{
+    color: rgb(170, 0, 255);
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+    
+#h1{
+        color: rebeccapurple;
+        font-weight: normal;
+    }
+#h2{
+        color: rgb(110, 153, 51);
+        font-weight: bold;
+    }
+#h3{
+        color: rgb(153, 51, 131);
+        font-weight: bolder;
+    }
+#h4{
+        color: rgb(51, 153, 148);
+        font-weight: lighter;
+    }
+#one{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+    text-transform: lowercase;
+}
+#two{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+#three{
+    font-size: 20px;
+}
+#four{
+    font-size: 40px;
+}
+#five{
+    font-size: 50px;
+}
